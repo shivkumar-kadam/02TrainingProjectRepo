@@ -28,6 +28,12 @@ body{
     top: 0;
 }
 
+
+.header-style-onScroll{
+    background-color:rgba(0, 128, 0, 0.221);
+}
+
+
 .logo{
     padding-left: 20px;
 }
@@ -99,3 +105,8 @@ footer{
     font-size: 20px;
 }
 
+/* Section BMI */
+.bmi{
+    height: 500px;
+    background-image: linear-gradient();
+}
