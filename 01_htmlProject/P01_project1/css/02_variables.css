@@ -1,0 +1,11 @@
+:root{
+    --primary-color:#004F2D;
+    --secondary-color:#9AB87A;
+    --background-color:#ffffff;
+    --text-color:#333;
+    --btn-text-color:var(--background-color);
+    --err-background-color:#ff85a1;
+    --err-text-color:#ff0a54;
+    --success-background-color:var(--secondary-color);
+    --success-text-color:#b5e48c;
+}
