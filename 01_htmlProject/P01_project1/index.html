@@ -25,6 +25,7 @@
     <!-- Hero Section -->
     <section class="hero hero-section-style">
         <div>
+            <p>HI 😀...</p>
             <div class="myName">text</div>
             <div class="myRole">...</div>    
         </div>
@@ -35,7 +36,31 @@
     </section>
 
     <!-- BMI Calculator Section -->
+    <section class="bmi">
+        <form action="" class="bmi-form" id="bmi-form">
+            <div class="bmi-heading-section">
+                <h1>BMI Calculator</h1>
+            </div>
+            
+            <div class="height-section">
+                <label for="inputHeight">Height in CM</label>
+                <input type="text" id="inputHeight" name="inputHeight" >
+                <p class="inputHeightErr msgSuccess"></p>
+            </div>
 
+            <div class="weight-section">
+                <label for="inputWeight">Weight in KG</label>
+                <input type="text" id="inputWeight" name="inputWeight" >
+                <p class="inputWeightErr msgErr"></p>
+            </div>
+
+            <div class="button-section">
+                <button type="submit" class="form-submit-button">Submit</button>
+                <button type="submit" class="form-reset-button form-submit-button">Reset Form</button>
+            </div>
+            </div>
+        </form>
+    </section>
 
 
     
@@ -49,5 +74,6 @@
     <!-- JavaScript Section-->
     <script src="./js/01printMsg.js"></script>
     <script src="./js/02setIntervalMsg.js"></script>
+    <script src="./js/03BMI.js"></script>
 </body>
 </html>
