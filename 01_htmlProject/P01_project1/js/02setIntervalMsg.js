@@ -40,7 +40,7 @@ btn.addEventListener('click',function(e){
    
 })
 
-startFun()
+// startFun()
 
 
 
